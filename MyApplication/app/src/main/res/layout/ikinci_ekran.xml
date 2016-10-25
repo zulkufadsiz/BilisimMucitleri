@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ANA MENÜ"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="#000"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <Button
+        android:id="@+id/btnact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity"
+        android:onClick="startAct"/>
+    <Button
+        android:id="@+id/dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog" />
+    <Button
+        android:id="@+id/aynctask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Async Task" />
+    <Button
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fotoğraf Çekme" />
+</LinearLayout>
