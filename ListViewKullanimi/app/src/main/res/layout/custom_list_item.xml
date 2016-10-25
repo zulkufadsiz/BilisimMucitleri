@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/ivItemListAvatar"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivItemListAvatar"
+        android:layout_toRightOf="@+id/ivItemListAvatar">
+
+        <TextView
+            android:id="@+id/ivItemListPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_alignParentTop="true"
+
+            />
+        <TextView
+            android:id="@+id/ivItemListTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_below="@+id/ivItemListPost"
+            android:paddingTop="15dp"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
